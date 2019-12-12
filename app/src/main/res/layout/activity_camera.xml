@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:visibility="visible"
+    tools:context=".camera">
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorAccent"
+        android:text="Pick symbols"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="407dp"
+        android:layout_height="571dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorAccent"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:background="@color/colorAccent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent"
+                android:text="Washing"
+                android:textSize="24sp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/imageButton104"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/wash_1"
+                    android:tint="#005C4545"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/wash_1" />
+
+                <ImageButton
+                    android:id="@+id/imageButton105"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/wash_2"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/wash_2" />
+
+                <ImageButton
+                    android:id="@+id/imageButton106"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/wash_3"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/wash_3" />
+
+                <ImageButton
+                    android:id="@+id/imageButton107"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/wash_4"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/wash_4" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/imageButton29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/wash_5"
+                    android:visibility="visible"
+                    tools:src="@mipmap/ic_launcher"
+                    tools:srcCompat="@drawable/wash_5" />
+
+                <ImageButton
+                    android:id="@+id/imageButton30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/wash_6"
+                    android:visibility="visible"
+                    tools:src="@mipmap/ic_launcher"
+                    tools:srcCompat="@drawable/wash_6" />
+
+                <ImageButton
+                    android:id="@+id/imageButton31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/wash_7"
+                    android:visibility="visible"
+                    tools:src="@mipmap/ic_launcher"
+                    tools:srcCompat="@drawable/wash_7" />
+
+                <ImageButton
+                    android:id="@+id/imageButton32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/wash_8"
+                    android:visibility="visible"
+                    tools:src="@mipmap/ic_launcher"
+                    tools:srcCompat="@drawable/wash_8" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/imageButton34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="false"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/wash_9"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/wash_9" />
+
+                <ImageButton
+                    android:id="@+id/imageButton35"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="false"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/wash_10"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/wash_10" />
+
+                <ImageButton
+                    android:id="@+id/imageButton73"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="false"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/wash_11"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/wash_11" />
+
+                <ImageButton
+                    android:id="@+id/imageButton74"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="false"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/wash_12"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/wash_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/imageButton37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/wash_13"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/wash_13" />
+
+                <ImageButton
+                    android:id="@+id/imageButton38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/wash_14"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/wash_14" />
+
+                <ImageButton
+                    android:id="@+id/imageButton77"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="false"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/wash_15"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/wash_15" />
+
+                <ImageButton
+                    android:id="@+id/imageButton75"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="false"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/wash_16"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/wash_16" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/imageButton25"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/wet_clean_1" />
+
+                <ImageButton
+                    android:id="@+id/imageButton26"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/wet_clean_2" />
+
+                <ImageButton
+                    android:id="@+id/imageButton27"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/wet_clean_3" />
+
+                <ImageButton
+                    android:id="@+id/imageButton28"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/wet_clean_4" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/wringing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="Wringing"
+                android:textSize="24sp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/imageButton22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/wring_1" />
+
+                <ImageButton
+                    android:id="@+id/imageButton23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/wring_2" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="Bleaching"
+                android:textSize="24sp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/imageButton65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/bleach_1"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/bleach_1" />
+
+                <ImageButton
+                    android:id="@+id/imageButton66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/bleach_2"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/bleach_2" />
+
+                <ImageButton
+                    android:id="@+id/imageButton67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/bleach_3"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/bleach_3" />
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/bleach_4"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/bleach_4" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="Drying"
+                android:textSize="24sp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/imageButton39"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/dry_1"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/dry_1" />
+
+                <ImageButton
+                    android:id="@+id/imageButton40"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/dry_2"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/dry_2" />
+
+                <ImageButton
+                    android:id="@+id/imageButton41"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/dry_3"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/dry_3" />
+
+                <ImageButton
+                    android:id="@+id/imageButton42"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/dry_4"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/dry_4" />
+
+                <ImageButton
+                    android:id="@+id/imageButton43"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/dry_5"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/dry_5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/imageButton44"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/dry_6"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/dry_6" />
+
+                <ImageButton
+                    android:id="@+id/imageButton45"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/dry_7"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/dry_7" />
+
+                <ImageButton
+                    android:id="@+id/imageButton46"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/dry_8"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/dry_8" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/dry_9"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/dry_9" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/dry_10"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/dry_10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/imageButton62"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/dry_11"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/dry_11" />
+
+                <ImageButton
+                    android:id="@+id/imageButton63"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/dry_12"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/dry_12" />
+
+                <ImageButton
+                    android:id="@+id/imageButton64"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/dry_13"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/dry_13" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/dry_14"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/dry_14" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/dry_15"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/dry_15" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="Ironing"
+                android:textSize="24sp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/imageButton68"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/iron_1"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/iron_1" />
+
+                <ImageButton
+                    android:id="@+id/imageButton69"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/iron_2"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/iron_2" />
+
+                <ImageButton
+                    android:id="@+id/imageButton70"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/iron_3"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/iron_3" />
+
+                <ImageButton
+                    android:id="@+id/imageButton71"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:src="@drawable/iron_4"
+                    android:visibility="visible"
+                    tools:srcCompat="@drawable/iron_4" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/iron_5" />
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/iron_6" />
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/iron_7" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="DryCleaning"
+                android:textSize="24sp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/imageButton9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/dry_clean_1" />
+
+                <ImageButton
+                    android:id="@+id/imageButton10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/dry_clean_2" />
+
+                <ImageButton
+                    android:id="@+id/imageButton11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/dry_clean_3" />
+
+                <ImageButton
+                    android:id="@+id/imageButton12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/dry_clean_4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/imageButton13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/dry_clean_5" />
+
+                <ImageButton
+                    android:id="@+id/imageButton14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/dry_clean_6" />
+
+                <ImageButton
+                    android:id="@+id/imageButton15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/dry_clean_7" />
+
+                <ImageButton
+                    android:id="@+id/imageButton16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/dry_clean_8" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/imageButton17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/dry_clean_9" />
+
+                <ImageButton
+                    android:id="@+id/imageButton18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/dry_clean_10" />
+
+                <ImageButton
+                    android:id="@+id/imageButton19"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/dry_clean_11" />
+
+                <ImageButton
+                    android:id="@+id/imageButton20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/dry_clean_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <ImageButton
+                    android:id="@+id/imageButton21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="3dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/dry_clean_13" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="17dp"
+        android:text="Done"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

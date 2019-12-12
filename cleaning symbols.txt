@@ -1,0 +1,60 @@
+Hand Wash Normal
+Machine Wash, Normal
+Machine Wash, Permanent Press
+Machine Wash, Delicate
+Do Not Wash
+Wash at or below 30 C
+Wash at or below 40 C
+Wash at or below 50 C
+Wash at or below 60 C
+Wash at or below 95 C
+Wash at or below 30 C
+Wash at or below 40 C
+Wash at or below 50 C
+Wash at or below 60 C
+Wash at or below 95 C
+Do Not Wet Clean
+Do Not Wring
+Wring
+Bleach
+Do Not Bleach
+Non-Chlorine Bleach
+Chlorine Bleach
+Tumble Dry, Normal
+Tumble Dry, Low Temp
+Tumble Dry, Medium Temp
+Tumble Dry, High Temp
+Tumble Dry, No Heat
+Line Dry
+Shade Dry
+Line Dry in Shade
+Drip Dry
+Drip Dry in Shade
+Dry Flat
+Dry Flat in Shade
+Natural Dry
+Do Not Tumble Dry
+Do Not Dry
+Iron
+Iron, Low Temp
+Iron, Medium Temp
+Iron, High Temp
+Do Not Iron
+Steam
+Do Not Steam
+Wet Clean
+Wet Clean, Delicate
+Wet Clean, Very Delicate
+Dry Clean
+Dry Clean, Any Solvent
+Dry Clean, Petroleum Only
+Dry Clean, Petroleum Only Delicate
+Dry Clean, Petroleum Only Very Delicate
+Dry Clean, Any Solvent Except Trichloroethylene
+Dry Clean, Any Solvent Except Trichloroethylene, Delicate
+Dry Clean, Any Solvent Except Trichloroethylene, Very Delicate
+Do Not Dry Clean
+Dry Clean, Short Cycle
+Dry Clean, Reduced Moisture
+Dry Clean, No Steam
+Dry Clean, Low Heat
