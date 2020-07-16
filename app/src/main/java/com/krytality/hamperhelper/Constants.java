@@ -18,6 +18,7 @@ public class Constants
 
     public static Dictionary dict = new Hashtable();
 
+    // preset all the possible values for to give users an answer
     private void setDict()
     {
         dict.put(0, "Hand Wash Normal");

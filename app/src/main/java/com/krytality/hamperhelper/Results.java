@@ -14,12 +14,12 @@ public class Results extends AppCompatActivity {
 
     LinearLayout ll;
 
+    // loads results page and displays results
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.results);
 
-        //ScrollView scrollView = findViewById(R.id.symbolList);
 
         ll  = findViewById(R.id.linearView);
 
@@ -41,11 +41,13 @@ public class Results extends AppCompatActivity {
 
     }
 
+    // clears results
     private void reset()
     {
         this.ll.removeAllViews();
     }
 
+    // returns back to symbols choosing page
     private void setupScanButton()
     {
         Button scanButton = findViewById(R.id.scanButton);
@@ -53,7 +55,7 @@ public class Results extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 reset();
-                startActivity(new Intent(Results.this, camera.class));
+                startActivity(new Intent(Results.this, UserChoices.class));
             }
         });
     }

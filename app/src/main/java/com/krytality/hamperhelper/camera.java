@@ -15,8 +15,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class camera extends AppCompatActivity {
+public class UserChoices extends AppCompatActivity {
 
+    // set all the main buttons
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +37,7 @@ public class camera extends AppCompatActivity {
 
     }
 
+    // default all the user choices to false 
     private void setStage()
     {
         for(int i = 0; i < Constants.activeSymbols.length; i++)
@@ -44,13 +46,13 @@ public class camera extends AppCompatActivity {
         }
     }
 
+    // update button when it is picked to show that it has been choosen
     private void setClick(final int i, final int shift, final ImageButton ib)
     {
         ib.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Constants.activeSymbols[i + shift] = !Constants.activeSymbols[i + shift];
-                //System.out.println(Constants.activeSymbols[i + shift]);
 
                 System.out.println(ib.getBackground());
 
@@ -67,6 +69,7 @@ public class camera extends AppCompatActivity {
         });
     }
 
+    // below is setting all the symbols that the user can choose from
     private void setDryCleaningButtons()
     {
         ImageButton dryclean1 = findViewById(R.id.imageButton9);
@@ -297,12 +300,12 @@ public class camera extends AppCompatActivity {
         final int shift = 0;
         for(int i = 0; i < buttonList.size(); i++) {
             setClick(i, shift, buttonList.get(i));
-            //((ViewGroup.MarginLayoutParams) buttonList.get(i).getLayoutParams()).setMargins(7,7,7,7);
         }
 
 
     }
 
+    // setting the button to go to the results screen
     private void setButtons()
     {
 
